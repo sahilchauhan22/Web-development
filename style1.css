@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(233, 208, 213);
+}
+
+.nextBut{
+    height: 40px;
+    width: 250px;
+    border-radius: 10px ;
+    background-color:  rgb(187, 86, 103);
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.loca{
+    position: relative;
+    top:-8px;
+    height: 25px;
+    width: 220px;
+    border-style: none;
+}
+.drib{
+    position: absolute;
+    top:30px;
+    left:60px;
+}
+.wel{
+    position: absolute;
+    top:70px;
+    font-weight: -30;
+}
+.let{
+    position: absolute;
+    top:130px;
+    left: 580px;
+}
+.container{
+    position: absolute;
+    top: 190px;
+    left:580px;
+    background-color: rgb(230, 200, 200);
+}

@@ -1,0 +1,40 @@
+.butimg1{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.text1{
+    position: relative;
+    top: -20px;
+    
+}
+.a1{
+    margin-right: 15px;
+}
+
+.finishBUT{
+    position: relative;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px ;
+    background-color:  rgb(187, 86, 103);
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    left: 650px;
+    top:-50px;
+    margin-top: 45px;
+}
+.box{
+    padding-left: 610px;
+    margin-top: -5px;
+    
+}
+
+.cont {
+    position: absolute;
+    top:30px;
+    left:60px;
+}
+  

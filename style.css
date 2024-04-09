@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4d954a59551179.5a26a9618fc98.jpg'); /* Specify your photo's URL or path */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Don't repeat the background image */
+    height: 100vh; /* Set the height of the body to the viewport height */
+    overflow: hidden; /* Prevent scrolling */
+  }
+  
+.top1{
+    color: aliceblue;
+    position: absolute;
+    top: 5px;
+    font-size: 40px;
+    left: 590px;
+}
+.nametag{
+    position: relative;
+    margin-bottom: 0px;;
+}
+.nametag2{
+    position: relative;
+    margin-bottom: 0px;;
+}
+.nametag3{
+    position: relative;
+    margin-bottom: 0px;;
+}
+.nametag4{
+    position: relative;
+    margin-bottom: 0px;;
+}
+.tagline{
+    color: white;
+    position: relative;
+    top: -40px;
+    left: 30px;
+}
+.t1{
+    position: relative;
+    top: 20px;
+}
+.alpha{
+    position: relative;
+    top: -40px;
+
+}
+.subbut{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;  
+}
+.subbut:hover{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;  
+}
+.button1{
+    background-color: green;
+    height: 40px;
+    width: 300px;;
+}
+ /* Hover effect */
+.button1:hover {
+    background-color: rgb(65, 112, 195); /* Darker green */
+}
+
