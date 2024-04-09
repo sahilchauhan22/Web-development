@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an Account</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        form {
+            background-color: transparent;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        input[type="text"],
+        input[type="password"],
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #40b2d8;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #54c240;
+        }
+    </style>
+</head>
+<body>
+        
+        <h1 class="top1">Sign up to dribbble</h1>
+    <form action="welcome.html" method="post">
+        <h1 class="t1" style="color: white;">Create an Account</h1>
+        <h2 class="nametag" style="color:white;">Name</h2>
+        <input type="text" name="username" placeholder="Name" required>
+        <h2 class="nametag2" style="color:white;">Username</h2>
+        <input type="password" name="password" placeholder="Username" required>
+        <h2 class="nametag3" style="color:white;">Create Password</h2>
+        <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+        <h2 class="nametag4" style="color:white;">Email</h2>
+        <input type="text" name="email" placeholder="Email" required>
+        <input type="checkbox" name="" id="">
+        <h4 class="tagline">Creating an account means you're okay with our Terms of Service.</h4>
+        <button class="button1"><a class="subbut" href="welcome.html">Create Account</a></button>
+        
+    </form>
+</body>
+</html>
